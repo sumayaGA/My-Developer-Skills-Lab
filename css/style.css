@@ -1,0 +1,40 @@
+h1 {
+    background-color: #90C17B;
+    color: whitesmoke; 
+    text-align: center;
+    font-size: 40px; 
+}
+
+td button {
+    color:whitesmoke; 
+    background-color: #cf5757;
+    border: none; 
+    padding: 10px;
+}
+
+table {
+    margin-right: auto;
+    
+}
+
+h3{
+    color: orange;
+    margin-right: 0%; 
+    
+}
+
+button{
+    align: center;
+    border: 4px solid #90C17B;
+    color: #90C17B;
+    background-color: white;
+    height: 40px; 
+}
+
+input {
+    width: 75%;
+    align: center;
+    border: 4px solid #90C17B;
+    height: 30px; 
+}
+
