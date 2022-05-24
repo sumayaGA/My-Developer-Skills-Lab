@@ -5,21 +5,23 @@ h1 {
     font-size: 40px; 
 }
 
-td button {
+.remove {
     color:whitesmoke; 
     background-color: #cf5757;
     border: none; 
     padding: 10px;
 }
 
-table {
+ul {
     margin-right: auto;
     
 }
 
-h3{
+li {
     color: orange;
     margin-right: 0%; 
+    font-size: 25px;
+    list-style-type: none;
     
 }
 

@@ -1,11 +1,14 @@
-let $buttons = $(".remove");
-
-$("button").on("click", function () {
-    $(".table").append("<h3>" + $("input").val() + "</h3>");
+//Add New Skill to unordered list
+$("#addSkill").on("click", function(){
+    let $input = $("input").val();
+    $(".skills").append(`<li><button class ="remove">X</button>${$input}</li>`)
+        $input;
 });
 
-$(".table").on("click", "h3", function() {
-    $(this).closest("h3").fadeOut()
 
+//Remove skill from unordered list
+$(".skills").on("click", "button", function(){
+    $(this).closest("li").fadeOut(function(){
+        $(this).remove();
+    });
 });
-
